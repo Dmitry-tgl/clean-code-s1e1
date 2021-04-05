@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header {
+    text-align: center;
 }
+
 }
 .main {
   display: block;
@@ -101,7 +104,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -119,9 +121,6 @@
   font-size: 18px;
   width: 226px;
 }
-/* .list-items__input {
-  width: 226px
-} */
 .delete:hover {
   color: #cf2323;
 }
